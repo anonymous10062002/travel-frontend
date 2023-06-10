@@ -11,19 +11,19 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/travel/posts">Post Data</Link>
+            <Link to="/post">Post Data</Link>
             </li>
             <li>
-              <Link to="/travel/posts">Retrieve Data</Link>
+            <Link to="/retrieve">Retrieve Data</Link>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route path="/travel/posts">
+          <Route path="/post">
             <PostData />
           </Route>
-          <Route path="/travel/posts">
+          <Route path="/retrieve">
             <GetData />
           </Route>
         </Switch>
