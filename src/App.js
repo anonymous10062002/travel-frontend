@@ -24,6 +24,7 @@ function App() {
             <PostData />
           </Route>
           <Route path="/retrieve">
+            
             <GetData />
           </Route>
         </Switch>
